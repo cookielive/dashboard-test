@@ -1,0 +1,18 @@
+.navlistbox{
+	background: #363636;
+	height: 100%;width: 180px;
+	overflow: hidden;
+}
+.navlistbox>.main-logo{width: 100%;height:60px;}
+.navlistbox>.main-logo>a{width: 100%;height:60px;display: block;color: #09c;font-weight:bold;text-decoration: none;text-align: center;font-size: 28px;line-height: 60px;}
+
+.navlistbox>.navlist{color: #fff;font-size: 14px;}
+.navlistbox>.navlist>.menu-level-1{list-style-type: none;}
+.navlistbox>.navlist>.menu-level-1>li{line-height: 40px;}
+.navlistbox>.navlist>.menu-level-1>li a{display:block;text-decoration: none;width: 100%;font-size: 14px;color: #fff;border-left:2px solid transparent;}
+.navlistbox>.navlist>.menu-level-1>li a *{font-size: 14px;}
+.navlistbox>.navlist>.menu-level-1>li a i{margin-left: 16px;font-size:20px;}
+.navlistbox>.navlist>.menu-level-1>li>.active{border-left:2px solid #22b5e5;color:#22B5E6;background: #212121;}
+
+.navlistbox>.navlist>.menu-level-1>li>.menu-level-2{background: #212121;text-indent: 24px;display: none;}
+.navlistbox>.navlist>.menu-level-1>li>.active+.menu-level-2{display: block;}
